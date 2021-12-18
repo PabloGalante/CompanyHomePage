@@ -3,23 +3,26 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <title>CookArdas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <header>
       <div class="headerImg">
         <img alt="CookArdas" src="resources/images/logo.png">
-      </div>
-      <div class="headerTitle">
-        <h1>CookArdas</h1>
-      </div>
+        <h1 id="title">CookArdas</h1>
+    </div>
     </header>
-    <section class="missionSection">
-      <h2>Cookies hechas con criterio</h2>
-      <p>CookArdas busca crear las cookies ideal para el momento exacto</p>
+    <section class="missionSection" id="mission">
+        <h2>Cookies hechas con criterio</h2>
+        <p>CookArdas busca crear las cookies ideal para el momento exacto</p>
     </section>
-    <section class="productSection">
-      <h3>Our Cookies</h3>
+    <h3 class="allh3">Our Cookies</h3>
+    <section class="productSection" id="product">
       <div class="product">
         <figure class="productImage">
         <img alt="Cookie Clasica" src="resources/images/cookie-clasica.jpg">
@@ -45,33 +48,37 @@
         <figcaption>Cookie Vegana</figcaption>
       </div>
     </section>
-    <section class="employeesSection">
+    <h3 class="allh3">Our Staff</h3>
+    <section class="employeesSection" id="employee">
       <div class="employee">
         <figure class="employeeImage">
           <img alt="Dana Employee" src="resources/images/employee-1.jpg">
         </figure>
-        <figcaption></figcaption>
+        <figcaption>Dana Richi <br> 22 years <br> Born in Massachutest
+        </figcaption>
       </div>
       <div class="employee">
         <figure class="employeeImage">
           <img alt="Robert Employee" src="resources/images/employee-2.jpg">
         </figure>
-        <figcaption></figcaption>
+        <figcaption>Robert Barney <br> 27 years <br> Born in Chicago
+        </figcaption>
       </div>
       <div class="employee">
           <figure class="employeeImage">
             <img alt="Sarah Employee" src="resources/images/employee-3.jpg">
           </figure>
-          <figcaption></figcaption>
+          <figcaption>Sarah Honor <br> 25 years <br> Born in New York
+          </figcaption>
       </div>
     </section>
     <footer>
       <div id="nameCopyright">CookArdas &reg;</div>
       <nav id="footerNav">
         <ul>
-          <li>Mission</li>
-          <li>Products</li>
-          <li>Employees</li>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#product">Products</a></li>
+          <li><a href="#employee">Employees</a></li>
         </ul>
       </nav>
     </footer>
